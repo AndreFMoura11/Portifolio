@@ -6,8 +6,6 @@ body {
     background-color: #fff;
     color: #777;
     font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-    width: 500px;
-    margin:0 auto;
 }
 p {
     line-height: 20px;
@@ -104,20 +102,24 @@ header nav ul li a {
 /* Hero Image */
 .wrapper-hero{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
 }
 .wrapper-hero > h2{
     grid-column:1;
     color:white;
+    
+    
 }
 .wrapper-hero > a{
     grid-column: 1;
 }
 
 #hero-image {
-    height: 580px;
+
+
+    height: auto;
     padding-top: 1px;
-    background: #e8eced url('HERO3.png') no-repeat center;
+    background: #e8eced url('HERO8.png') no-repeat center;
 }
 #hero-image h2 {
     margin: 180px 0 40px 0;
