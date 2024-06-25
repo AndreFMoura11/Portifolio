@@ -6,6 +6,8 @@ body {
     background-color: #fff;
     color: #777;
     font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    width: auto;
+    margin:0 auto;
 }
 p {
     line-height: 20px;
